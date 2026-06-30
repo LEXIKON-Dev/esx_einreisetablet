@@ -1,9 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
 
-name 'esx_einreisetablet'
-author 'Custom'
-description 'ESX Einreise Tablet System mit Zone, Marker und Admin-Benachrichtigung'
+
+author 'LEXIKON'
+description 'ESX Einreise Tablet System '
 version '1.0.0'
 
 lua54 'yes'
