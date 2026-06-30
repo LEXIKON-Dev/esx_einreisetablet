@@ -1,0 +1,36 @@
+/* SF Symbol–style icons via inline SVG sprite */
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    flex-shrink: 0;
+    fill: currentColor;
+    stroke: none;
+}
+
+.icon use,
+.icon path,
+.icon circle,
+.icon rect {
+    fill: currentColor;
+}
+
+.icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.icon-box.blue   { background: #1a3a5c; color: #0A84FF; }
+.icon-box.green  { background: #1a3d2a; color: #30D158; }
+.icon-box.orange { background: #3d2e14; color: #FF9F0A; }
+.icon-box.red    { background: #3d1f1e; color: #FF453A; }
+.icon-box.purple { background: #352044; color: #BF5AF2; }
+.icon-box.gray   { background: #3A3A3C; color: #D1D1D6; }
+.icon-box.teal   { background: #1a3340; color: #64D2FF; }
+
+.icon-box.sm  { width: 28px; height: 28px; border-radius: 7px; }
+.icon-box.md  { width: 36px; height: 36px; border-radius: 9px; }
+.icon-box.lg  { width: 52px; height: 52px; border-radius: 14px; }
+.icon-box.xl  { width: 72px; height: 72px; border-radius: 18px; }
