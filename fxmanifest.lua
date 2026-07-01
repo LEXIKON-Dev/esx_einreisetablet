@@ -1,9 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
 
-
-author 'LEXIKON'
-description 'ESX Einreise Tablet System '
+name 'esx_einreisetablet'
+author 'LEXIKON-Dev'
+description 'ESX Immigration Tablet with zone, help marker and admin UI'
 version '1.0.0'
 
 lua54 'yes'
@@ -11,6 +11,7 @@ lua54 'yes'
 shared_scripts {
     '@es_extended/imports.lua',
     'config.lua',
+    'locales/init.lua',
     'locales/de.lua',
     'locales/en.lua',
     'shared/locale.lua'
